@@ -1,6 +1,20 @@
 
-.header {
+nav {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: left;
+}
+
+#header {
     font-family: Verdana;
     font-size: 14px;
     font-weight: bold;
+    display: flex;
+    color: MediumAquamarine;
+    border-bottom: 2px solid black;
+
+#logo {
+    display: flex;
 }
+
