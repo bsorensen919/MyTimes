@@ -1,7 +1,7 @@
 header {
     display: flex;
     align-items: center;
-    position: fixed;
+
     width: 100%;
     height: 80px;
     font-family: Verdana;
@@ -27,4 +27,29 @@ span {
     align-items: center;
     flex-grow: 1;
     padding-left: 30px;
+}
+
+.content {
+    display: flex;
+}
+
+column {
+    display: flex;
+    flex-direction: column;
+}
+.column.large {
+    width: 630px;
+}
+
+.column.medium {
+    width: 300px;
+}
+
+.column.small {
+    width: 240px;
+}
+
+/* for debugging purposes */
+div {
+    border: 1px solid black;
 }
