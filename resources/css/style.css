@@ -34,7 +34,6 @@ span {
 }
 
 .picture-title {
-    display: flex;
     font-family: Georgia;
     font-weight: bold;
     font-size: 30px;
@@ -46,6 +45,7 @@ span {
     font-size: 17px;
     color: black;
 }
+
 .column {
     display: flex;
     flex-direction: column;
@@ -63,6 +63,17 @@ span {
     width: 240px;
 }
 
+.story {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.story-block {
+    display: flex;
+    flex-direction: column;
+}
+
 .news-bite {
     background-image: url('../img-news-bite.png');
     height: 240px;
@@ -73,26 +84,25 @@ span {
     background-image: url('../img-story-main.png');
     height: 300px;
     width: 629px;
-    display: flex;
 }
 
 #earth{
     background-image: url('../img-story-2.png');
-    width:629px;
-    height:299px;
+    width:299px;
+    height:300px;
 
 }
 
 #cameras {
     background-image: url('../img-story-3.png');
-    width: 629px;
-    height: 299px;
+    width: 299px;
+    height: 300px;
 }
 
 #cats {
     background-image: url('../img-story-1.png');
-    width: 299px;
     height: 300px;
+    width: 299px;
 }
 
 /* for debugging purposes */
