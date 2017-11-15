@@ -1,7 +1,6 @@
 header {
     display: flex;
     align-items: center;
-
     width: 100%;
     height: 80px;
     font-family: Verdana;
@@ -38,6 +37,7 @@ span {
     font-weight: bold;
     font-size: 30px;
     color: white;
+    text-align: center;
 }
 
 .story-title {
@@ -67,17 +67,18 @@ span {
     display: inline-flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-top: 30;
 }
 
 .story-block {
     display: inline-flex;
     flex-direction: column;
-    align-items: center;
     width: 300px;
 }
 
 .large-content-block {
     display: inline-flex;
+    justify-content: space-between;
 }
 
 .news-bite {
@@ -97,7 +98,6 @@ span {
     width: 299px;
     height: 300px;
     flex-shrink: 0;
-
 }
 
 #cameras {
