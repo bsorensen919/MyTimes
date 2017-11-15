@@ -81,10 +81,28 @@ span {
     justify-content: space-between;
 }
 
-.news-bite {
+.news-bite-cookie {
     background-image: url('../img-news-bite.png');
     height: 240px;
     width: 240px;
+}
+
+.news-bites-list {
+    font-family: Verdana;
+    font-size: 12px;
+    background-color: WhiteSmoke;
+    color: DimGray;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-bite-heading {
+    font-size: 16px;
+    font-weight: bold;
+}
+.news-bites-list p {
+    padding: 11px 20px;
+    border-bottom: solid 1px;
 }
 
 #tuna {
